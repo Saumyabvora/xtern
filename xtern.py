@@ -12,7 +12,7 @@ import statsmodels.api as sm
 sns.set()
 from sklearn.linear_model import LinearRegression
 
-data = pd.read_csv("C:\\Users\\saumya\\Downloads\\2020-XTern-DS.csv")
+data = pd.read_csv("2020-XTern-DS.csv")
 data = data.replace('-', np.nan, regex=True)
 data = data.replace('1,', np.nan, regex=True)
 data = data.replace('NEW', np.nan, regex=True)
